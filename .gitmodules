@@ -1,0 +1,3 @@
+[submodule "BLT-Graphics"]
+	path = BLT-Graphics
+	url = https://github.com/Tri11Paragon/BLT-Graphics
