@@ -1,0 +1,72 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"BLT-Graphics/libraries/assimp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 460,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 466,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "libassimp5.2.5-dev",
+			"destination" : "lib/cmake/assimp-5.2",
+			"paths" : 
+			[
+				"cmake-build-debug/BLT-Graphics/libraries/assimp/generated/assimpConfig.cmake",
+				"cmake-build-debug/BLT-Graphics/libraries/assimp/generated/assimpConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "libassimp5.2.5-dev",
+			"destination" : "lib/cmake/assimp-5.2",
+			"exportName" : "assimpTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "zlibstatic::@4d4ed67fda18ceef38a1",
+					"index" : 7
+				},
+				{
+					"id" : "assimp::@4d754e1eb4f0cce61b11",
+					"index" : 3
+				}
+			],
+			"paths" : 
+			[
+				"BLT-Graphics/libraries/assimp/CMakeFiles/Export/f1f86f75407ff2a2c6a2eadbb93d9f6f/assimpTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "BLT-Graphics/libraries/assimp",
+		"source" : "BLT-Graphics/libraries/assimp"
+	}
+}

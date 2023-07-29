@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "BLT-Graphics/libraries/BLT",
+		"source" : "BLT-Graphics/libraries/BLT"
+	}
+}
