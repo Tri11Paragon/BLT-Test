@@ -1,0 +1,315 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "BLT-Graphics",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-BLT-Graphics-Debug-a5c46555d25351870025.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "BLT-Graphics",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "BLT-Graphics/libraries/BLT",
+					"jsonFile" : "directory-BLT-Graphics.libraries.BLT-Debug-dfbb53b49781b381143a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "BLT-Graphics/libraries/BLT",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "BLT-Graphics/libraries/glfw",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-BLT-Graphics.libraries.glfw-Debug-5758775450680ee1241a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "BLT-Graphics/libraries/glfw",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "BLT-Graphics/libraries/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-BLT-Graphics.libraries.glfw.src-Debug-b177386b3c72e388c133.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "BLT-Graphics/libraries/glfw/src",
+					"targetIndexes" : 
+					[
+						4,
+						6
+					]
+				},
+				{
+					"build" : "BLT-Graphics/libraries/assimp",
+					"childIndexes" : 
+					[
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-BLT-Graphics.libraries.assimp-Debug-54a0872a4f5cd2e8b8ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "BLT-Graphics/libraries/assimp"
+				},
+				{
+					"build" : "BLT-Graphics/libraries/assimp/contrib/zlib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-BLT-Graphics.libraries.assimp.contrib.zlib-Debug-e8ff793c1d942053f693.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 5,
+					"source" : "BLT-Graphics/libraries/assimp/contrib/zlib",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "BLT-Graphics/libraries/assimp/code",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-BLT-Graphics.libraries.assimp.code-Debug-5c7f62be0be2f9b2e78d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "BLT-Graphics/libraries/assimp/code",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BLT_TESTS",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "BLT_GRAPHICS",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "BLT",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						5
+					],
+					"directoryIndexes" : 
+					[
+						5,
+						7
+					],
+					"name" : "Assimp",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "zlib",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "BLT::@6ff1d97b2deef8df8cf0",
+					"jsonFile" : "target-BLT-Debug-68ca00e6abc01dd55c0d.json",
+					"name" : "BLT",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "BLT_GRAPHICS::@fabae21fcb7fd453a3d1",
+					"jsonFile" : "target-BLT_GRAPHICS-Debug-d67711b7e232c0c3bdc1.json",
+					"name" : "BLT_GRAPHICS",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BLT_TESTS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BLT_TESTS-Debug-c25fa91e03864d189661.json",
+					"name" : "BLT_TESTS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "assimp::@4d754e1eb4f0cce61b11",
+					"jsonFile" : "target-assimp-Debug-094728e8b6908adf2dd2.json",
+					"name" : "assimp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@28757ab40fca887f90a8",
+					"jsonFile" : "target-glfw-Debug-5e7e8437ead4727f1e04.json",
+					"name" : "glfw",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uninstall::@b96776c6ded8ec53e693",
+					"jsonFile" : "target-uninstall-Debug-74180dbfc79a34ffb995.json",
+					"name" : "uninstall",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "update_mappings::@28757ab40fca887f90a8",
+					"jsonFile" : "target-update_mappings-Debug-2f4fe96a6b53c7017eb8.json",
+					"name" : "update_mappings",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "zlibstatic::@4d4ed67fda18ceef38a1",
+					"jsonFile" : "target-zlibstatic-Debug-2055a9a3235a87947506.json",
+					"name" : "zlibstatic",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/brett/Documents/code/c++/BLT_dev/BLT-Test/cmake-build-debug",
+		"source" : "/home/brett/Documents/code/c++/BLT_dev/BLT-Test"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

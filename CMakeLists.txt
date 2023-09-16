@@ -14,7 +14,7 @@ file(GLOB_RECURSE source_files src/*.cpp)
 
 add_executable(BLT_TESTS ${source_files})
 
-target_link_libraries(BLT_TESTS private BLT_GRAPHICS)
+target_link_libraries(BLT_TESTS PUBLIC BLT_GRAPHICS)
 
 if (${ENABLE_ADDRSAN} MATCHES ON)
     target_compile_options(BLT_GRAPHICS PRIVATE -fsanitize=address)
